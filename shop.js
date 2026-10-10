@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-product]').forEach(btn=>btn.addEventListener('click',()=>{alert('Это пока макет магазина. Оплата за '+btn.dataset.product+' не подключена. Не вводи данные карты на этой странице.');}));
